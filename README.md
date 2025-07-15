@@ -40,6 +40,10 @@ The `insurance` key holds an object with the following information:
   "deductible": 1000.00,
   "coPay": 20.00
 }
+```
+
+---
+
 
 ## 🏷️ Insurance Provider
 
