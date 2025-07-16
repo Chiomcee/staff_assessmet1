@@ -26,6 +26,13 @@ def display_insurance_details(data):
         # Extract and display the insurance provider
         insurance_provider = insurance_details.get("provider", "N/A")
         print("Insurance Provider:", insurance_provider)
+        
+        # get patience name
+        patient_name = data.get("patient", {}).get("name", {})
+        first_name = patient_name.get("first", "")
+        last_name = patient_name.get("last", "")
+        print(f"Patient Name: {first_name} {last_name}")
+        
     else:
         print("No data to explore.")
         
