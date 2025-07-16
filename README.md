@@ -44,7 +44,6 @@ The `insurance` key holds an object with the following information:
 
 ---
 
-
 ## 🏷️ Insurance Provider
 
 The **insurance provider** is: **Health Insurance Co.**
